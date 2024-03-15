@@ -11,7 +11,7 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
 
-                        <NavLink className="navbar-brand" href="/my-to-do-list"><i className="fa-solid fa-user-tie"></i><div className='letter-P d-inline'>T</div>o-Do-Cool</NavLink>
+                        <NavLink className="navbar-brand" to="/my-to-do-list"><i className="fa-solid fa-user-tie"></i><div className='letter-P d-inline'>T</div>o-Do-Cool</NavLink>
 
                         <button className="navbar-toggler" type="button" title='toggle-button' onClick={() => setState(!state)}>
                             <span className="navbar-toggler-icon"></span>
