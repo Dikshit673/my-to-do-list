@@ -14,7 +14,7 @@ const ErrorCom = () => {
                                         <h1>404</h1>
                                         <h2>Page Not Found</h2>
                                         <p>The page you are looking for doesn't exist or has been moved.</p>
-                                        <NavLink to="/" className=' d-flex justify-content-center align-items-center'>
+                                        <NavLink to="/my-to-do-list" className=' d-flex justify-content-center align-items-center'>
                                             <button type='submit' title='go-to-homepage' className='error-go-home-btn'>Go Home</button>
                                         </NavLink>
                                     </div>

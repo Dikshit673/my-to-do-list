@@ -12,9 +12,9 @@ const App = () => {
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/mytodolist" element={<MyToDoList />}></Route>
+          <Route exact path="/my-to-do-list" element={<Home />}></Route>
+          <Route path="/my-to-do-list/contact" element={<Contact />}></Route>
+          <Route path="/my-to-do-list/mytodolist" element={<MyToDoList />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
       </Router>

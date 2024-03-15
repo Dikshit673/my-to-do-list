@@ -11,7 +11,7 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
 
-                        <NavLink className="navbar-brand" href="/"><i className="fa-solid fa-user-tie"></i><div className='letter-P d-inline'>T</div>o-Do-Cool</NavLink>
+                        <NavLink className="navbar-brand" href="/my-to-do-list"><i className="fa-solid fa-user-tie"></i><div className='letter-P d-inline'>T</div>o-Do-Cool</NavLink>
 
                         <button className="navbar-toggler" type="button" title='toggle-button' onClick={() => setState(!state)}>
                             <span className="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@ const Navbar = () => {
                         <div className={`collapse navbar-collapse nav-content-media ${state ? "show" : ""}`} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" aria-current="page" to="/" onClick={() => setState(!state)}>
+                                    <NavLink className="nav-link" aria-current="page" to="/my-to-do-list" onClick={() => setState(!state)}>
                                         <i className="fa-solid fa-house" />
                                         Home
                                     </NavLink>
@@ -45,7 +45,7 @@ const Navbar = () => {
                                     </NavLink>
                                 </li> */}
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/contact" onClick={() => setState(!state)}>
+                                    <NavLink className="nav-link" to="/my-to-do-list/contact" onClick={() => setState(!state)}>
                                         <i className="fa-solid fa-phone" />
                                         Contact us
                                     </NavLink>
