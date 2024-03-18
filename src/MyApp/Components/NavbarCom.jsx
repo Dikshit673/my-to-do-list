@@ -2,16 +2,15 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 
-const Navbar = () => {
+const NavbarCom = () => {
     const [state, setState] = React.useState(false);
-    // const [theme, setTheme] = React.useState(false);
     return (
         <>
             <section className='navbar-section'>
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
 
-                        <NavLink className="navbar-brand" to="/my-to-do-list"><i className="fa-solid fa-user-tie"></i><div className='letter-P d-inline'>T</div>o-Do-Cool</NavLink>
+                        <NavLink className="navbar-brand" to="/my-to-do-list"><div className='letter-P d-inline'>C</div>ool-To-Do-List</NavLink>
 
                         <button className="navbar-toggler" type="button" title='toggle-button' onClick={() => setState(!state)}>
                             <span className="navbar-toggler-icon"></span>
@@ -61,4 +60,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavbarCom

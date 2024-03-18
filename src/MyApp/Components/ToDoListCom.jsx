@@ -1,4 +1,4 @@
-const ToDoList = (props) => {
+const ToDoListCom = (props) => {
     return (
         <>
             <div className="container center-todo-cont">
@@ -20,4 +20,4 @@ const ToDoList = (props) => {
         </>
     );
 };
-export default ToDoList;
+export default ToDoListCom;
